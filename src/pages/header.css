@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.theme-button {
+  display: block;
+  box-sizing: content-box;
+  margin-left: auto;
+  width: 40px;
+  height: 20px;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.theme-button:before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  transition: 0.3s;
+}
+
+.theme-button.light {
+  border: 1px solid #000;
+}
+
+.theme-button.dark {
+  border: 1px solid #fff;
+}
+
+.theme-button.light:before {
+  background-color: #000;
+}
+
+.theme-button.dark:before {
+  background-color: #fff;
+  transform: translateX(20px);
+}
