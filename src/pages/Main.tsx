@@ -7,7 +7,7 @@ import "./header.css";
 import "./footer.css";
 
 export const Main = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
