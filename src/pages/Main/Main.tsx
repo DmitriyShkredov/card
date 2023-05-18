@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import classNames from "classnames";
-import { ReactComponent as IconInstagram } from "../assets/svg/icon_instagram.svg";
-import { ReactComponent as IconTelegram } from "../assets/svg/icon_telegram.svg";
-import "./index.css";
-import "./header.css";
-import "./footer.css";
+import { ReactComponent as IconInstagram } from "../../assets/svg/icon_instagram.svg";
+import { ReactComponent as IconTelegram } from "../../assets/svg/icon_telegram.svg";
+import { ReactComponent as IconYoutube } from "../../assets/svg/icon_youtube.svg";
+import "./main.css";
 
 export const Main = () => {
   const [theme, setTheme] = useState("dark");
@@ -34,13 +33,21 @@ export const Main = () => {
           <IconInstagram />
         </a>
         <a
+          href="https://www.youtube.com/@DmitriyShkredov/"
+          className={classNames("footer__link footer__link--youtube", theme)}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconYoutube />
+        </a>
+        {/* <a
           href="https://t.me/dmitriy_shkredov"
           className={classNames("footer__link", theme)}
           target="_blank"
           rel="noreferrer"
         >
           <IconTelegram />
-        </a>
+        </a> */}
       </footer>
     </main>
   );
