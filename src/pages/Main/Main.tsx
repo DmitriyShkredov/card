@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { ReactComponent as IconInstagram } from "../../assets/svg/icon_instagram.svg";
 import { ReactComponent as IconTelegram } from "../../assets/svg/icon_telegram.svg";
 import { ReactComponent as IconYoutube } from "../../assets/svg/icon_youtube.svg";
+import { ReactComponent as IconRutube } from "../../assets/svg/icon_rutube.svg";
 import "./main.css";
 
 export const Main = () => {
@@ -33,13 +34,22 @@ export const Main = () => {
           <IconInstagram />
         </a>
         <a
-          href="https://www.youtube.com/@DmitriyShkredov/"
+          href="https://www.youtube.com/channel/UCrhB54dW2km5MfFGNogNrlw"
           className={classNames("footer__link footer__link--youtube", theme)}
           target="_blank"
           rel="noreferrer"
         >
           <IconYoutube />
         </a>
+        <a
+          href="https://rutube.ru/channel/31171170/"
+          className={classNames("footer__link footer__link--rutube", theme)}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <IconRutube />
+        </a>
+
         {/* <a
           href="https://t.me/dmitriy_shkredov"
           className={classNames("footer__link", theme)}

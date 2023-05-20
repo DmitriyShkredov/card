@@ -147,6 +147,10 @@ code {
   width: 2.5rem;
 }
 
+.footer__link--rutube {
+  width: 6rem;
+}
+
 .footer__link svg {
   display: block;
   width: 100%;
