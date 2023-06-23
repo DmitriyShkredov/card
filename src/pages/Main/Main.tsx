@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import classNames from "classnames";
+import { useLocalStorage } from "../../hooks";
 import { ReactComponent as IconInstagram } from "../../assets/svg/icon_instagram.svg";
-import { ReactComponent as IconTelegram } from "../../assets/svg/icon_telegram.svg";
 import { ReactComponent as IconYoutube } from "../../assets/svg/icon_youtube.svg";
 import { ReactComponent as IconRutube } from "../../assets/svg/icon_rutube.svg";
 import "./main.css";
 
 export const Main = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme]: any = useLocalStorage("theme", "dark");
 
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
@@ -49,15 +49,6 @@ export const Main = () => {
         >
           <IconRutube />
         </a>
-
-        {/* <a
-          href="https://t.me/dmitriy_shkredov"
-          className={classNames("footer__link", theme)}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IconTelegram />
-        </a> */}
       </footer>
     </main>
   );
