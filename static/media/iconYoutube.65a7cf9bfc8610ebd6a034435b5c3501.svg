@@ -1,0 +1,35 @@
+<svg
+  width="140"
+  height="140"
+  viewBox="0 0 140 140"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M57.5 53V88"
+    stroke="inherit"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M58 53L88.2324 69.8247"
+    stroke="inherit"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M58 88L88 70"
+    stroke="inherit"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+  <rect
+    x="7.5"
+    y="23.5"
+    width="125"
+    height="95"
+    rx="17.5"
+    stroke="inherit"
+    stroke-width="5"
+  />
+</svg>
