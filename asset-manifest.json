@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/card/static/css/main.38588b23.css",
-    "main.js": "/card/static/js/main.eac1e5de.js",
-    "static/media/iconGithub.svg": "/card/static/media/iconGithub.bd89d0ec8b19e0ae70709feb01c16320.svg",
+    "main.css": "/card/static/css/main.ecafa5f1.css",
+    "main.js": "/card/static/js/main.9db6887a.js",
+    "static/media/iconGithub.svg": "/card/static/media/iconGithub.54bac0c571294bd8e6e4181f4538e0d1.svg",
     "static/media/iconRutube.svg": "/card/static/media/iconRutube.595b3de94e48486df2ef723431ce9d03.svg",
     "index.html": "/card/index.html",
+    "static/media/iconDzen.svg": "/card/static/media/iconDzen.42d9ad51d2db23123ca58813cf1c237b.svg",
     "static/media/iconYoutube.svg": "/card/static/media/iconYoutube.65a7cf9bfc8610ebd6a034435b5c3501.svg",
     "static/media/iconInstagram.svg": "/card/static/media/iconInstagram.abcb30f27291ed71181eef27b5b15af1.svg",
-    "main.38588b23.css.map": "/card/static/css/main.38588b23.css.map",
-    "main.eac1e5de.js.map": "/card/static/js/main.eac1e5de.js.map"
+    "main.ecafa5f1.css.map": "/card/static/css/main.ecafa5f1.css.map",
+    "main.9db6887a.js.map": "/card/static/js/main.9db6887a.js.map"
   },
   "entrypoints": [
-    "static/css/main.38588b23.css",
-    "static/js/main.eac1e5de.js"
+    "static/css/main.ecafa5f1.css",
+    "static/js/main.9db6887a.js"
   ]
 }
